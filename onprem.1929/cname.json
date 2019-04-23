@@ -1,0 +1,11 @@
+{
+            "Comment": "UPSERT C Record ",
+            "Changes": [{
+            "Action": "UPSERT",
+                        "ResourceRecordSet": {
+                                    "Name": "kat.dev.draios.com",
+                                    "Type": "CNAME",
+                                    "TTL": 300,
+                                 "ResourceRecords": [{ "Value": "a1412562065f911e9875b0a2751afd01-245787532.us-east-1.elb.amazonaws.com"}]
+}}]
+}
