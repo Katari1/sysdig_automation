@@ -41,7 +41,7 @@ This is a fully featured environment.  Using these scripts will do the following
 4.  Enable k8 auditing
 5.  Add the quay.io repo to your scanning implementation as well as an alert to scan all unscanned images.
 6.  Deploy watchtower dashboards in monitor so you can see how your cluster is behaving.
-
+7.  I am using a public wildcard cert so anything XXXX.dev.draios.com will show up as trusted.  Please note you can't do XXXX.XXXX.dev.draios.com as that will make the cert still show up as untrusted.
 
 Lastly, I have made a util.sh script which has a full working menu and will perform a lot of different functions.  When you're done using Sysdig make sure you run the utility script and select option 1 for "Cleanup Sysdig".  This will help clean up AWS volumes as well as remove the CNAME record.
 
